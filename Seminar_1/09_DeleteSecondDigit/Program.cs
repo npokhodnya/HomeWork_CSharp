@@ -9,5 +9,5 @@ if(n > 99 && n < 1000)
 }
 else
 {
-    Console.WriteLine($"В числе нет второй цифры!");
+    Console.WriteLine($"Число должно быть трёхзначным");
 }
