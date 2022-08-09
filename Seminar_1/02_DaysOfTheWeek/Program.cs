@@ -2,7 +2,8 @@
 
 Console.Write("Введите номер дня недели: ");
 int number = int.Parse(Console.ReadLine());
-if ((number == 0) || (number  == 1))
+
+if ((number == 0) || (number  == 1))    // У программистов всё с нуля начинается :)
 {
     Console.Write($"День недели под номером {number} - это ПОНЕДЕЛЬНИК!");
 }
