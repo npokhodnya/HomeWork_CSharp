@@ -12,7 +12,7 @@ while (minusN != n+1)
     }
     else
     {
-    Console.Write($"{minusN}, ");
+        Console.Write($"{minusN}, ");
     }
     minusN++;
 }
