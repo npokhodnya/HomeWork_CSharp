@@ -12,11 +12,12 @@ if(n > 99)
         n/=10;
     }
     int digit = (n%10);
-    Console.WriteLine($"Третья цифра в числе {oldN} - это цифра {digit}!");
+    Console.WriteLine($"Третья цифра (с начала) в числе {oldN} - это цифра {digit}!");
+    Console.WriteLine($"Третья цифра (с конца) в числе {oldN} - это цифра {(oldN%1000-oldN%100)/100}!");
 }
 else
 {
-    Console.WriteLine($"В числе нет второй цифры!");
+    Console.WriteLine($"В числе нет третьей цифры!");
 }
 
 Console.WriteLine();
