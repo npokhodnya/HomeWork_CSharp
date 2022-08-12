@@ -11,7 +11,7 @@ if (plane == 1)
 else if (plane == 2)
 {
     int x = rand.Next(-10, 0); int y = rand.Next(1, 10);
-     Console.Write($"Для {plane} плоскости характерен диапозон координат (x<0; y>0), например ({x}; {y})");
+    Console.Write($"Для {plane} плоскости характерен диапозон координат (x<0; y>0), например ({x}; {y})");
 }
 else if (plane == 3)
 {
