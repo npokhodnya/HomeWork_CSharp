@@ -10,7 +10,7 @@ double CheckDistance2D()
     double y1 = double.Parse(Console.ReadLine());
     Console.Write("Введите y2: ");
     double y2 = double.Parse(Console.ReadLine());
-    return ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
+    return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 }
 double CheckDistance3D()
 {
@@ -26,7 +26,7 @@ double CheckDistance3D()
     double z1 = double.Parse(Console.ReadLine());
     Console.Write("Введите z2: ");
     double z2 = double.Parse(Console.ReadLine());
-    return ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1))+((z2-z1)*(z2-z1));
+    return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
 }
 Console.Clear();
 while (true)
