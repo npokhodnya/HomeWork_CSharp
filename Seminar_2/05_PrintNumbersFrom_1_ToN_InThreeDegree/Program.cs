@@ -1,4 +1,4 @@
-﻿// Найти кубы чисел от 1 до N.
+﻿// 5. Найти кубы чисел от 1 до N.
 
 void CheckNumsInThreeDegree(int number)
 {
