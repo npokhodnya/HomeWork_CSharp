@@ -7,7 +7,6 @@ void CheckCubesOfNums(int[] numbers)
 }
 void PrintArray(int[] array)
 {
-    int count = 0;
     foreach (int element in array) Console.Write($"{element} ");
 }
 Console.Clear();
