@@ -1,6 +1,7 @@
 ### Для удобства можно переходить сразу к заданию по ссылкам!
 #
-# Курс: Знакомство с языками программирования (семинары). Практическое задание №1
+# Курс: Знакомство с языками программирования (семинары). 
+# Практическое задание №1
 0. По двум заданным числам проверять является ли первое квадратом второго. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_1/01_IsFirstSquareSecond)
 
 1. По заданному номеру дня недели вывести его название. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_1/02_DaysOfTheWeek)
@@ -23,7 +24,7 @@
 
 10. Найти третью цифру числа или сообщить, что её нет. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_1/11_FindThirdDigit)
 
-# Курс: Знакомство с языками программирования (семинары). Практическое задание №2
+# Практическое задание №2
 0. Дано число обозначающее день недели. Выяснить является номер дня недели выходным. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/01_IsNumOfTheWeek-Weekend)
 
 1. По двум заданным числам проверять является ли одно квадратом другого. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/02_IsNumAQuoterOfAnotherNum)
