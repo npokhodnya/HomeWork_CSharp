@@ -24,6 +24,7 @@ void MultiplicationOfPairs(int[] array)
         indexMax--;
         indexMin++;
     }
+    if(array.Length%2 != 0) Console.WriteLine($"Число, оставшееся без пары - {array[indexMin]}!");
 }
 Console.Clear();
 Console.Write("Введите длину массива: ");
