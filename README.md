@@ -45,7 +45,6 @@
 8. Написать программу вычисления произведения чисел от 1 до N. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/09_MultipleOfNumbers_1_To_N)
 
 9. Показать кубы чисел, заканчивающихся на четную цифру. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/10_CubesOfNums)
-<<<<<<< HEAD
 
 # Практическое задание №3
 0. Задать массив из 8 элементов, заполненных нулями и единицами вывести их на экран. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/01_IsNumOfTheWeek-Weekend)
