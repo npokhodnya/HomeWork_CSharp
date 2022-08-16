@@ -43,3 +43,22 @@
 8. Написать программу вычисления произведения чисел от 1 до N. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/09_MultipleOfNumbers_1_To_N)
 
 9. Показать кубы чисел, заканчивающихся на четную цифру. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/10_CubesOfNums)
+
+# Практическое задание №3
+0. Задать массив из 8 элементов, заполненных нулями и единицами вывести их на экран. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/01_IsNumOfTheWeek-Weekend)
+
+1. Задать массив из 12 элементов, заполненных числами из [0,9]. Найти сумму положительных/отрицательных элементов массива. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/02_IsNumAQuoterOfAnotherNum)
+
+2. Написать программу замену элементов массива на противоположные. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/03_ShowRangesForPossibleCoordinates)
+
+3. Определить, присутствует ли в заданном массиве, некоторое число. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/04_Distance2Points_2_3_D)
+
+4. Задать массив, заполнить случайными положительными трёхзначными числами. Показать количество нечетных\четных чисел. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/05_PrintNumbersFrom_1_ToN_InThreeDegree)
+
+5. В одномерном массиве из 123 чисел найти количество элементов из отрезка [10,99]. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/06_PrintSumOfNumbers)
+
+6. Найти сумму чисел одномерного массива стоящих на нечетной позиции. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/07_CountOfDigits)
+
+7. Найти произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/08_SumOfDigits)
+
+8. В Указанном массиве вещественных чисел найдите разницу между максимальным и минимальным элементом. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_2/09_MultipleOfNumbers_1_To_N)
