@@ -16,7 +16,7 @@ void CountOfElements(int[] array, int min, int max)
     int count = 0;
     foreach (var element in array)
     {
-        if(element>9 && element<100) count++;
+        if(element>min-1 && element<max+1) count++;
     }
     Console.WriteLine($"Количество всех элементов из отрезка [{min}, {max}] = {count}");
 }
