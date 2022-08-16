@@ -30,5 +30,6 @@ Console.Write("Введите длину массива: ");
 int len = int.Parse(Console.ReadLine());
 int[] array = new int[len];
 FillArray(array, 0, 10);
+Console.Write("Массив: ");
 PrintArray(array);
 MultiplicationOfPairs(array);
