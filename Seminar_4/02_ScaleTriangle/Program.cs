@@ -12,7 +12,7 @@ void CheckTriangle()
     Console.Write($"Результат: ");
     for (int i = 0; i < parametrs.Length; i+=2)
     {
-        Console.Write($"({double.Parse(parametrs[i]) * k}, {double.Parse(parametrs[i+1]) *k}) ");
+        Console.Write($"({double.Parse(parametrs[i]) * k}, {double.Parse(parametrs[i+1]) * k}) ");
     }
 }
 Console.Clear();
