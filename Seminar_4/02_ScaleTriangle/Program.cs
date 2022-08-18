@@ -3,18 +3,17 @@
 void CheckTriangle()
 {
     Console.Write("Введите коэффициент масштабирования: ");
-    int k = int.Parse(Console.ReadLine());
-    Console.Write("Введите координаты через запятую разделяя пробелом (пример - 2,3 4,3 6,7 4,5): ");
-    string parametrs = Console.ReadLine();
-    int ax = int.Parse(parametrs[0].ToString());
-    int ay = int.Parse(parametrs[2].ToString());
-    int bx = int.Parse(parametrs[4].ToString());
-    int by = int.Parse(parametrs[6].ToString());
-    int cx = int.Parse(parametrs[8].ToString());
-    int cy = int.Parse(parametrs[10].ToString());
-    int dx = int.Parse(parametrs[12].ToString());
-    int dy = int.Parse(parametrs[14].ToString());
-    Console.Write($"Результат: ({ax*k}, {ay*k}) ({bx*k}, {by*k}) ({cx*k}, {cy*k}) ({dx*k}, {dy*k})");
+    double k = double.Parse(Console.ReadLine());
+    Console.WriteLine("Введите координаты вершин (x, y), пример - (0, 0) (2.55, 0) (2.123, 2) (0, 2).");
+    Console.WriteLine();
+    Console.Write("Вводите: ");
+    string[] parametrs = Console.ReadLine().Split(new string[] { " ", '('.ToString(), ')'.ToString(), ","}, StringSplitOptions.RemoveEmptyEntries);
+    Console.WriteLine();
+    Console.Write($"Результат: ");
+    for (int i = 0; i < parametrs.Length; i+=2)
+    {
+        Console.Write($"({double.Parse(parametrs[i]) * k}, {double.Parse(parametrs[i+1]) *k}) ");
+    }
 }
 Console.Clear();
 CheckTriangle();
