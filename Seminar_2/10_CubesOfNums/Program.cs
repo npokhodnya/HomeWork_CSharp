@@ -3,7 +3,7 @@
 void CheckCubesOfNums(int[] numbers)
 {
     foreach (int element in numbers)
-        if (element%10%2 == 0) Console.Write($"{element*element*element} ");
+        if ((element%10)%2 == 0) Console.Write($"{element*element*element} ");
 }
 void PrintArray(int[] array)
 {
