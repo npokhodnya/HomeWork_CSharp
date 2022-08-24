@@ -80,7 +80,7 @@
 3.  Написать программу копирования массива. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_4/03_CopyMassive)
 
 # Практическое задание №5
-1. Театральная площадь в столице Берляндии представляет собой прямоугольник n × m метров... **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_5/02_Elephant)
+1. Театральная площадь в столице Берляндии представляет собой прямоугольник n × m метров... **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_5/01_TeatralPlace)
 
 Фото решения:
 
