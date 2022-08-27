@@ -109,3 +109,10 @@
 Фото решения:
 
 ![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/seminar5_task5.png)
+
+# Практическое задание №6
+1. Показать двумерный массив размером `m × n` заполненный вещественными числами. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_6/01_PrintMatrix)
+
+2. Задать двумерный массив следующим правилом: `Aₘₙ = m+n`. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_6/02_NewMatrixMN)
+
+3. В двумерном массиве заменить элементы, у которых оба индекса чётные на их квадраты. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_6/03_ChangeMatrix)
