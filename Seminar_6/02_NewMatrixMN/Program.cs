@@ -1,16 +1,15 @@
 ﻿// 2. Задать двумерный массив следующим правилом: Aₘₙ = m+n.
 
-double[,] CreateMatrix(int row, int col)
+int[,] CreateMatrix(int row, int col)
 {
-    var matrix = new double[row, col];
-    var rand = new Random();
+    var matrix = new int[row, col];
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j <  matrix.GetLength(1); j++) matrix[i, j] = i+j;
     }
     return matrix;
 }
-void PrintMatrix(double[,] array)
+void PrintMatrix(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
