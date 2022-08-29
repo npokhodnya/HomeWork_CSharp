@@ -1,6 +1,6 @@
 ﻿// 3. Задан номер года, найдите наименьший номер года, который строго больше заданного и в котором все цифры различны.
 
-bool IsBeutifullYear(int num)
+int IsBeutifullYear(int num)
 {
     num++;
     string yearString = num.ToString();
@@ -11,17 +11,10 @@ bool IsBeutifullYear(int num)
             // Console.WriteLine($"{yearString[i]} - {yearString[j]}");   --->   This code shows how the numbers are compared 
             if (yearString[i] == yearString[j] && i != j)
             {
-                return false;
+                return IsBeutifullYear(num);
             }
         }
     }
-    return true;
+    return num;
 }
-
-int CheckYear(int num)
-{
-    if(IsBeutifullYear(num)) return num+1;
-    else return CheckYear(num+1);
-        
-}
-Console.WriteLine(CheckYear(int.Parse(Console.ReadLine())));
+Console.WriteLine(IsBeutifullYear(int.Parse(Console.ReadLine())));
