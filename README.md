@@ -84,31 +84,31 @@
 
 Фото решения:
 
-![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/seminar5_task1.png)
+![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/Seminar_5/task1.png)
 
 2. Слоник решил сходить в гости к другу... **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_5/02_Elephant)
 
 Фото решения:
 
-![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/seminar5_task2.png)
+![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/Seminar_5/task2.png)
 
 3.  Задан номер года, найдите наименьший номер года, который строго больше заданного и в котором все цифры различны. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_5/03_BeautifulYear)
 
 Фото решения:
 
-![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/seminar5_task3.png)
+![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/Seminar_5/task3.png)
 
 4.  Петя называет число почти счастливым, если количество счастливых цифр в нем — счастливое число. Ему интересно, является ли число `n` почти счастливым. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_5/04_IsNumHappy)
 
 Фото решения:
 
-![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/seminar5_task4.png)
+![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/Seminar_5/task4.png)
 
 5. Сколько долларов ему придется одолжить у однополчанина, чтобы купить `w` бананов? **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_5/05_HowMuchWillASoldierHaveToBorrow)
 
 Фото решения:
 
-![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/seminar5_task5.png)
+![Пожалуйста, напишите мне в телеграм, если видите это сообщение!](Pictures/Seminar_5/task5.png)
 
 # Практическое задание №6
 1. Показать двумерный массив размером `m × n` заполненный вещественными числами. **Cсылка:** [тык](https://github.com/npokhodnya/Homework_CSharp/tree/master/Seminar_6/01_PrintMatrix)
