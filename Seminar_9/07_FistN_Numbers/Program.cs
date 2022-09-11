@@ -1,6 +1,5 @@
-﻿int N = 10;
-int a = 3;
-int b = 5;
+﻿int a = 3;  // первый элемент
+int b = 5;  // второй элемент
 
 int CheckNumber(int a, int b, int position)
 {
