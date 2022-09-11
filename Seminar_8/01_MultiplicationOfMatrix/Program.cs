@@ -19,11 +19,12 @@ void PrintMatrix(int[,] array)
 int[,] FindMultiplicationMatrix(int[,] matrix1, int[,] matrix2)
 {
     int[,] resMatrix = new int[matrix1.GetLength(0), matrix1.GetLength(1)];
-    for (int i = 0; i < matrix1.GetLength(1); i++) // Это столбцы
+    for (int i = 0; i < matrix1.GetLength(0); i++) // Это столбцы
     {
-        for (int j = 0; j <  matrix2.GetLength(0); j++) // Это строки
+        for (int j = 0; j <  matrix2.GetLength(1); j++) // Это строки
         {
-            resMatrix[j, i] = matrix1[j, i] * matrix2[j, i];
+            for (int k = 0; k < matrix1.GetLength(1); k++)
+                resMatrix[i, j] += matrix1[i, k] * matrix2[k, j];
         }
     }
     return resMatrix;
